@@ -1,0 +1,227 @@
+:root {
+    --cor-bloco-exibicao: #D9D9D9;
+    --cor-fundo: #1E293B;
+    --cor-navegacao: #0C121C;
+    --cor-texto: #B8BFC6;
+    --cor-botao: #7F6881;
+
+    --fonte-1: "Open Sans", sans-serif;
+    --fonte-2: "Montserrat", sans-serif;
+
+    --gradiente: linear-gradient(
+    0deg,
+    hsl(217deg 33% 17%) 0%,
+    hsl(217deg 33% 17%) 4%,
+    hsl(217deg 33% 17%) 8%,
+    hsl(217deg 33% 16%) 12%,
+    hsl(217deg 33% 16%) 16%,
+    hsl(217deg 33% 15%) 20%,
+    hsl(217deg 33% 15%) 24%,
+    hsl(217deg 33% 15%) 28%,
+    hsl(217deg 33% 14%) 32%,
+    hsl(217deg 33% 14%) 36%,
+    hsl(217deg 33% 13%) 40%,
+    hsl(217deg 34% 13%) 44%,
+    hsl(217deg 34% 13%) 48%,
+    hsl(217deg 34% 12%) 52%,
+    hsl(217deg 34% 12%) 57%,
+    hsl(217deg 34% 11%) 61%,
+    hsl(217deg 34% 11%) 65%,
+    hsl(217deg 34% 11%) 69%,
+    hsl(217deg 35% 10%) 73%,
+    hsl(217deg 35% 10%) 77%,
+    hsl(218deg 35% 10%) 82%,
+    hsl(218deg 36% 9%) 86%,
+    hsl(218deg 37% 9%) 90%,
+    hsl(218deg 38% 8%) 95%,
+    hsl(218deg 40% 8%) 100%
+    );
+}
+
+*{
+    font-family: var(--fonte-2);
+    margin: 0;
+    padding: 0; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* configuração padrão */
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cor-fundo);
+}
+
+.foto{
+    width: 28.3rem;
+    height: 28.3rem;
+    border-radius: 300%;
+}
+
+.titulo{
+    font-family: var(--fonte-1);
+    color: var(--cor-texto);
+    font-size: 4.8rem;
+}
+
+.sub-titulo{
+    font-family: var(--fonte-1);
+    color: var(--cor-texto);
+    font-size: 4rem;
+}
+
+.texto{
+    color: var(--cor-texto);
+    font-size: 2.5rem;
+}
+
+.btn{
+    color: var(--cor-texto);
+    background-color: var(--cor-botao);
+    padding: 2rem 10rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+}
+
+
+header{
+    width: 100%;   
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gradiente);
+    
+    & ul{
+        display: flex;
+        gap: 3rem;
+    }
+
+    & a{
+        font-size: 2.5rem;
+        color: var(--cor-texto);
+    }
+
+}
+
+/* page home */
+
+.page_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.organizacao-botao{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+/* Sobre mim */
+
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 6rem;
+    border: 1px solid #fff;
+}
+
+.about-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        margin: 2rem 0;
+        
+    }
+}
+
+/* Pagina de Portifolio */
+
+.portifolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #fff;
+}
+
+.portifolio-projeto{
+    display: flex;
+    padding: 4rem;
+    gap: 4rem;
+
+}
+
+.portifolio-projeto-expocisao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0rem;
+    gap: 3rem;
+
+    background-color: var(--cor-bloco-exibicao);
+    width: 30rem;
+    height: 35rem;
+    border-radius: 4rem;
+}
+
+.portifolio-imagem{
+    width: 24rem;
+    height: 20rem;
+    border-radius: 4rem;
+}
+
+.btn-portifolio{
+    background-color: var(--cor-botao);
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+}
+
+/* 
+.btn{
+    color: var(--cor-texto);
+    background-color: var(--cor-botao);
+    padding: 2rem 10rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+} 
+*/
+
+/* Pagina certificado */
+
+.certificado{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--cor-bloco-exibicao);
+    width: 104rem;
+    height: 24rem;
+    border: 1px solid #fff;
+}
