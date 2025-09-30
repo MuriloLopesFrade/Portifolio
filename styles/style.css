@@ -120,8 +120,10 @@ header{
 .page_home{
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
     gap: 40px;
+    border: 1px solid #fff;
 }
 
 .hero{
