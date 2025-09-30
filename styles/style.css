@@ -45,6 +45,7 @@
 }
 
 html{
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
@@ -54,6 +55,7 @@ ul,ol{
 
 a{
     text-decoration: none;
+    color: var(--cor-texto);
 }
 
 /* configuração padrão */
@@ -61,169 +63,152 @@ a{
     width: 100%;
     height: 100vh;
     background-color: var(--cor-fundo);
-}
-
-.foto{
-    width: 28.3rem;
-    height: 28.3rem;
-    border-radius: 300%;
-}
-
-.titulo{
-    font-family: var(--fonte-1);
-    color: var(--cor-texto);
-    font-size: 4.8rem;
-}
-
-.sub-titulo{
-    font-family: var(--fonte-1);
-    color: var(--cor-texto);
-    font-size: 4rem;
-}
-
-.texto{
-    color: var(--cor-texto);
-    font-size: 2.5rem;
-}
-
-.btn{
-    color: var(--cor-texto);
-    background-color: var(--cor-botao);
-    padding: 2rem 10rem;
-    border-radius: 3rem;
-    font-size: 2rem;
+    
 }
 
 
 header{
-    width: 100%;   
+    width: 100%;
     height: 8rem;
+    background-image: var(--gradiente);
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--gradiente);
     
     & ul{
         display: flex;
-        gap: 3rem;
+        gap: 2rem;
     }
-
-    & a{
-        font-size: 2.5rem;
-        color: var(--cor-texto);
-    }
-
 }
 
-/* page home */
+.conteiner-grid-1 {
+    width: 100%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
 
-.page_home{
+
+
+.projeto{
+    background-color: var(--cor-bloco-exibicao);
+    border-radius: 1rem;
+    width: 25rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    
+}
+
+.certificado{
+    background-color: var(--cor-bloco-exibicao);
+    border-radius: 1rem;
+    width: 40rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.align-items{
+    display: flex;
+    align-items: center;
+}
+
+.centralizacao{
+    padding: 0 3rem;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    gap: 40px;
-    border: 1px solid #fff;
+    align-items: center;
+    gap: 3rem
+}
+
+.display-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.display-rows{
+    display: flex;
+    flex-direction: row;
 }
 
 .hero{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.organizacao-botao{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 3rem;
-    align-items: center;
-}
-
-/* Sobre mim */
-
-.about{
+    min-height: calc(100vh - 8rem);
     display: flex;
     justify-content: center;
-    padding: 6rem;
-    border: 1px solid #fff;
-}
-
-.about-text{
-    margin-top: auto;
-    margin-bottom: auto;
-    
-
-    h1{
-        text-align: center;
-    }
-
-    p{
-        margin: 2rem 0;
-        
-    }
-}
-
-/* Pagina de Portifolio */
-
-.portifolio{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    border: 1px solid #fff;
-}
-
-.portifolio-projeto{
-    display: flex;
-    padding: 4rem;
-    gap: 4rem;
-
-}
-
-.portifolio-projeto-expocisao{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem 0rem;
     gap: 3rem;
-
-    background-color: var(--cor-bloco-exibicao);
-    width: 30rem;
-    height: 35rem;
-    border-radius: 4rem;
 }
 
-.portifolio-imagem{
-    width: 24rem;
-    height: 20rem;
-    border-radius: 4rem;
+.foto{
+    width: 20%;
+    border-radius: 100%;
 }
 
-.btn-portifolio{
-    background-color: var(--cor-botao);
-    padding: 1rem 2rem;
-    border-radius: 10rem;
+.foto-projeto{
+    width: 50%;
+    border-radius: 1rem;
 }
 
-/* 
-.btn{
+.titulo{
+    font-size: 4.8rem;
     color: var(--cor-texto);
-    background-color: var(--cor-botao);
-    padding: 2rem 10rem;
-    border-radius: 3rem;
+}
+
+.sub-titulo{
+    font-size: 3rem;
+    color: var(--cor-texto);
+}
+
+.sub-titulo-2{
+    font-size: 3rem;
+    color: var(--cor-fundo);
+}
+
+.texto{
+    font-size: 2.4rem;
+    color: var(--cor-texto);
+}
+
+.texto-2{
     font-size: 2rem;
-} 
-*/
+    color: var(--cor-fundo);
+}
 
-/* Pagina certificado */
 
-.certificado{
+.btn{
+    font-size: 3rem;
+    background-color: var(--cor-botao);
+    border-radius: 20rem;
+    padding: 1rem 2.5rem;
+}
+
+.btn-2{
+    font-size: 2rem;
+    background-color: var(--cor-botao);
+    border-radius: 20rem;
+    padding: 1rem 2.5rem;
+}
+
+.org-botao{
     display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--cor-bloco-exibicao);
-    width: 104rem;
-    height: 24rem;
-    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1rem 0;
+}
+
+.gap{
+    gap: 5rem ;
 }

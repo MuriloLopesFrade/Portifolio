@@ -18,28 +18,28 @@
             <nav>
 
                 <ul>
-                    <il><a href="#tela1">Sobre mim</a></il>
+                    <il><a href="#tela1" class="texto">Sobre mim</a></il>
 
-                    <il><a href="#tela2">Portifolio</a></il>
+                    <il><a href="#tela2" class="texto">Portifolio</a></il>
 
-                    <il><a href="#tela3">Certificações</a></il>
+                    <il><a href="#tela3" class="texto">Certificações</a></il>
                 </ul>
 
             </nav>
 
         </header>
 
-        <div class="page_home">
+        <div class="hero">
 
-            <div class="hero">
+            <div class="">
 
                 <h1 class="titulo">Hello World !</h1>
 
-                <h2 class="sub-titulo">Sou Murilo, estudante de Data Science em</h2>
+                <h2 class="sub-titulo">Sou Murilo, estudante de programação em</h2>
 
-                <h2 class="sub-titulo">constante evolução profissional.</h2>
+                <h2 class="sub-titulo">constante evolução.</h2>
 
-                <div class="organizacao-botao">
+                <div class="org-botao">
 
                     <a class="btn" target="_blank" href="https://github.com/MuriloLopesFrade">Github</a>
 
@@ -59,27 +59,20 @@
     <!-- Seção inicial da página -->
     <section class="conteiner" id="tela1">
 
-        <div class="about">
+        <div class="display-column centralizacao">
 
-            <div class="about-text">
+            <h1 class="titulo">Conheça um pouco sobre mim </h1>
 
-                <h1 class="titulo">Conheça um pouco sobre mim </h1>
+            <div class="display-rows align-items gap">
 
-                <p class="texto">
-                    Sou Murilo, tenho 19 anos e sou graduando em Sistemas de Informação pela FIAP. 
-                    Iniciei meus estudos em programação aos 16 anos, desenvolvendo habilidades em linguagens como Java, Python, HTML e CSS. 
-                    Atualmente, foco no aprimoramento em Data Science com Python.
-                </p>
+                <div class="">
+                    <p class="texto">Sou Murilo, tenho 19 anos e sou graduando em Sistemas de Informação pela FIAP.Iniciei meus estudos em programação aos 16 anos, desenvolvendo habilidades em linguagens como Java, Python, HTML e CSS. Atualmente, foco no aprimoramento em Data Science com Python.</p>
+                    <p class="texto">Em 2025, participei de um projeto com Oracle APEX, ampliando minha experiência prática.Tenho como objetivo atuar nas áreas de Data Science e Inteligência Artificial, buscando constante desenvolvimento para construir uma carreira sólida e relevante no setor de tecnologia.</p>
+                </div>
 
-                <p class="texto">
-                    Em 2025, participei de um projeto com Oracle APEX, ampliando minha experiência prática. 
-                    Tenho como objetivo atuar nas áreas de Data Science e Inteligência Artificial, 
-                    buscando constante desenvolvimento para construir uma carreira sólida e relevante no setor de tecnologia.
-                </p>
+                <img class="foto" src="./imagem/Eu/Foto_2.png" alt="">
 
             </div>
-
-            <img class="foto" src="./imagem/Eu/Foto_2.png" alt="Foto de apresentação">
 
         </div>
 
@@ -89,53 +82,63 @@
     <!-- Seção inicial da página -->
     <section class="conteiner" id="tela2">
 
-        <div class="portifolio">
+        <div class="centralizacao display-column">
 
-            <h1 class="titulo">Alguns dos meu Projetos</h1>
+            <h1 class="titulo">Projetos</h1>
 
-            <div class="portifolio-projeto">
+            <div class="conteiner-grid-1 ">
 
-                <div class="portifolio-projeto-expocisao">
+                <div class="projeto">
 
-                    <img class="portifolio-imagem" src="./imagem/Projeto/Telecom.png" alt="">
-                    
-                    <h2 class="texto">Telecom X parte 1</h2>
-
-                    <div>
-                        <a class="btn-portifolio texto" target="_blank" href="https://github.com/MuriloLopesFrade/Chelleging_Telecom_X">código</a>
-                        <!-- <a class="btn-portifolio texto" target="_blank" href=""></a> -->
-                    </div>
-                    
+                    <img class="foto-projeto" src="./imagem/Projeto/Telecom.png" alt="">
+                    <p class="texto-2">Telecom X prt-1</p>
+                    <a class="btn-2" href="https://github.com/MuriloLopesFrade/Chelleging_Telecom_X" target="_blank">Código</a>
 
                 </div>
 
-                <div class="portifolio-projeto-expocisao">
+                <div class="projeto">
 
-                    <img class="portifolio-imagem" src="./imagem/Projeto/Telecom.png" alt="">
-                    
-                    <h2 class="texto">Telecom X parte 2</h2>
-
-                    <div>
-                        <a class="btn-portifolio texto" target="_blank" href="https://github.com/MuriloLopesFrade/Chelleging_Telecom_X">código</a>
-                        <!-- <a class="btn-portifolio texto" target="_blank" href=""></a> -->
-                    </div>
+                    <img class="foto-projeto" src="./imagem/Projeto/Telecom.png" alt="">
+                    <p class="texto-2">Telecom X prt-2</p>
+                    <a class="btn-2" href="https://github.com/MuriloLopesFrade/Chelleging_Telecom_X_parte_2" target="_blank">Código</a>
 
                 </div>
 
-                <div class="portifolio-projeto-expocisao">
+                <div class="projeto">
 
-                    <img class="portifolio-imagem" src="./imagem/Projeto/Seu_joao.png" alt="">
+                    <img class="foto-projeto" src="./imagem/Projeto/Seu_joao.png" alt="">
+                    <p class="texto-2">Seu João</p>
+                    <a class="btn-2" href="https://github.com/MuriloLopesFrade/Lojas_Senhor_Jo-o" target="_blank">Código</a>
+
+                </div>
+
+                <div class="projeto">
+
+                    <img class="foto-projeto" src="./imagem/Projeto/IA.png" alt="">
+                    <p class="texto-2">Tecnologia favorita: IA</p>
+                    <a class="btn-2" href="https://github.com/MuriloLopesFrade/Tecnologia_favorita" target="_blank">Código</a>
+                    <a class="btn-2" href="https://tecnologia-favorita-g3e7mjsxm-murilolopesfrades-projects.vercel.app/" target="_blank">Site</a>
+
+                </div>
+
+                <div class="projeto">
                     
-                    <h2 class="texto">Loja do senhor joão</h2>
+                    <img class="foto-projeto" src="./imagem/Projeto/Foto_frontal_armado.jpg" alt="">
+                    <p class="texto-2">Rôbo Fênix</p>
+                    <a class="btn-2" href="https://github.com/MuriloLopesFrade/site_robo_Fenix" target="_blank">Código</a>
+                    <a class="btn-2" href="https://site-robo-fenix-n0f1iwjjg-murilolopesfrades-projects.vercel.app/" target="_blank">Site</a>
+                </div>
 
-                    <div>
-                        <a class="btn-portifolio texto" target="_blank" href="https://github.com/MuriloLopesFrade/Lojas_Senhor_Jo-o">código</a>
-                        <!-- <a class="btn-portifolio texto" target="_blank" href=""></a> -->
-                    </div>
+                <div class="projeto">
+
+                    <img class="foto-projeto" src="./imagem/Projeto/Telecom.png" alt="">
+                    <p class="texto-2">Telecom X prt-2</p>
+                    <a class="btn-2" href="" target="_blank">Código</a>
 
                 </div>
 
             </div>
+            
 
         </div>
     
@@ -144,7 +147,48 @@
     <!-- Seção inicial da página -->
     <section class="conteiner" id="tela3">
 
-        <div class="certificado">
+        <div class="centralizacao display-column">
+
+            <h1 class="titulo">Certificados</h1>
+
+            <div class="conteiner-grid-1 display-rows">
+
+                <div class="certificado display-column">
+                    
+                    <h2 class="sub-titulo-2">Devops</h2>
+
+                    <a class="texto-2" href="./Certificado/Devops/DevOps explorando conceitos, comandos e scripts no Linux CLI.pdf" target="_blank">-Conceitos, comandos e scripts no Linux CLI</a>
+                    <a class="texto-2" href="./Certificado/Devops/DevOps trabalhando com tráfego seguro em comunicações web.pdf" target="_blank">-tráfego seguro em comunicações web</a>
+
+                </div>
+
+                <div class="certificado display-column">
+
+                    <h2 class="sub-titulo-2">Dados</h2>
+
+                    <a class="texto-2" href="./Certificado/dados/SQL com Oracle Database manipule e consulte dados.pdf" target="_blank">-SQL com Oracle Database</a>
+                    <a class="texto-2" href="./Certificado/dados/Modelagem de dados identificando entidades, atributos, relacionamentos.pdf" target="_blank">-Modelagem de dados: identificando entidades, atributos, relacionamentos</a>
+                    <a class="texto-2" href="./Certificado/dados/Modelagem de dados desenvolvendo o modelo lógico.pdf" target="_blank">-Modelagem de dados: desenvolvendo o modelo lógico</a>
+                    <a class="texto-2" href="./Certificado/dados/Modelagem de dados construindo o modelo físico.pdf" target="_blank">-Modelagem de dados: construindo o modelo físico</a>
+
+                </div>
+                    
+                <div class="certificado display-column">
+
+                    <h2 class="sub-titulo-2">Python</h2>
+
+                    <a class="texto-2"  href="./Certificado/Python/Python-basico-avançado.pdf" target="_blank">-Python do básico ao avançado</a>
+                    <a class="texto-2" href="./Certificado/Python/Pandas conhecendo a biblioteca.pdf" target="_blank">-Pandas: conhecendo a biblioteca</a>
+                    <a class="texto-2" href="./Certificado/Python/Pandas I-O trabalhando com diferentes formatos de arquivos.pdf" target="_blank">-Pandas: trabalhando com arquivos</a>
+                    <a class="texto-2" href="./Certificado/Python/NumPy análise numérica eficiente com Python.pdf" target="_blank">-NumPy: análise numérica</a>
+                </div>
+
+            </div>
+
+                
+
+            
+
 
         </div>
 
