@@ -6,18 +6,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Portifolio</title>
+    <title>Murilo_Lopes</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
 
-    <section class="conteiner_css min-vh-100 d-flex flex-column" id="Inicio">
+    <section class="container-fluid min-vh-100 d-flex flex-column" id="Inicio">
 
-        <header class="py-3">                
+        <header class="position-absolute top-0 start-0 w-100 py-3 bg-dark bg-opacity-75">                
             <nav>
                 <ul class="list-unstyled d-flex justify-content-center gap-4">
                     <li><a href="#tela1" class="text-decoration-none fw-bold">Sobre</a></li>
@@ -27,16 +27,17 @@
             </nav>
         </header>
 
-        <div class="container-xxl flex-grow-1 d-flex align-items-center">
+        <div class="container flex-grow-1 d-flex align-items-center">
             
             <div class="row gx-5 align-items-center w-100">
 
                 <div class="col-lg-8 mb-4 mb-lg-0">
-                    <div class="text-center text-lg-center"> <h1 class="font_big">Hello World !</h1>
-                        <h2 class="font_text">Sou Murilo, estudante de tecnologia em</h2>
-                        <h2 class="font_text">constante evolução profissional.</h2>
+                    <div class="text-center text-lg-center"> 
+                        <h1 class="display-1">Hello World !</h1>
+                        <h3 class="display-3">Sou Murilo, estudante de tecnologia em</h3>
+                        <h3 class="display-3">constante evolução profissional.</h3>
                         
-                        <a class="btn font_btn btn-danger mt-3" href="#tela3" role="button">Redes</a>
+                        <a class="btn mt-3" style="width: 20rem; font-size: 2.4rem; color: #fff; background-color: #7F6881;" href="#tela3" role="button">Redes</a>
 
                     </div>
                 </div>
@@ -52,19 +53,19 @@
 
     </section>
 
-    <section id="tela1" class="conteiner_css min-vh-100 d-flex align-items-center"> 
-        <div class="container-xxl px-4">
+    <section id="tela1" class="container-fluid min-vh-100 d-flex align-items-center"> 
+        <div class="container">
 
             <div class="row gx-5 justify-content-center align-items-center">
 
-                <div class="col-lg-6 mb-4 mb-lg-0"> 
+                <div class="col-lg-8 mb-4 mb-lg-0"> 
 
                     <div class="p-3">
-                        <h1 class="text-center mb-4">Sobre mim</h1>
+                        <h1 class="display-1 text-center mb-4">Sobre mim</h1>
 
                         <p> 
-                            Olá, sou Murilo. Aos 20 anos, curso Sistemas de Informação na FIAP e sou apaixonado por tecnologia, área que exploro desde os 16 anos, 
-                            quando iniciei meus estudos em lógica de programação. Ao longo dessa trajetória, desenvolvi proficiência em linguagens fundamentais 
+                            Olá, sou Murilo. Atualmente 20 anos, curso Sistemas de Informação na FIAP e sou apaixonado por tecnologia, área que exploro desde os 16 anos, 
+                            quando iniciei meus estudos com lógica de programação. Ao longo dessa trajetória, desenvolvi proficiência em linguagens fundamentais 
                             como Java, Python, HTML e CSS, além de consolidar conhecimentos na plataforma Oracle APEX.
                         </p>
 
@@ -77,7 +78,7 @@
 
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-4">
 
                     <div class="p-3 text-center">
                         <img class="foto_about img-fluid rounded shadow" src="./imagem/Eu/Foto_2.png" alt="Foto de apresentação">
@@ -91,20 +92,21 @@
 
     </section>
 
-    <section id="tela2" class="conteiner_css min-vh-100 d-flex align-items-center"> <div class="container-xxl">
+    <section id="tela2" class="container-fluid min-vh-100 d-flex align-items-center"> 
+        <div class="container">
             
-            <h1 class="text-center mb-5">Página de Portfólio</h1> 
+            <h1 class="display-1 text-center mb-5">Portfólio</h1> 
 
             <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
 
                 <div class="col">
                     <div class="card h-100 color-card">
                         <div class="card-body d-flex flex-column align-items-center">
-                            <h2 class="card-title text-center">Telecom X- parte 1</h2>
+                            <h2 class="text-center">Telecom X- parte 1</h2>
                             <p class="card-text text-center">
                                 Projeto com o foco de analisar os dados de evasão de cliente da empresa Telecom X, com o objetivo de melhorar o desempenho da empresa.
                             </p>
-                            <a class="btn btn-danger btn-lg mt-auto" href="https://github.com/MuriloLopesFrade/Chelleging_Telecom_X" target="_blank">Código</a>
+                            <a class="btn mt-auto" style="width: 12rem; height: 4rem;font-size: 1.8rem; color: #fff; background-color: #7F6881;" href="https://github.com/MuriloLopesFrade/Chelleging_Telecom_X" target="_blank">Código</a>
                         </div>
                     </div>
                 </div>
@@ -112,11 +114,11 @@
                 <div class="col">
                     <div class="card h-100 color-card">
                         <div class="card-body d-flex flex-column align-items-center">
-                            <h2 class="card-title text-center">Telecom X- parte 2</h2>
+                            <h2 class="text-center">Telecom X- parte 2</h2>
                             <p class="card-text text-center">
                                 Este projeto é continuação da parte 1, onde aprimoro as ánalises e resulto em mais insights do projeto.
                             </p>
-                            <a class="btn btn-danger btn-lg mt-auto" href="https://github.com/MuriloLopesFrade/Chelleging_Telecom_X_parte_2" target="_blank">Código</a>
+                            <a class="btn  mt-auto" style="width: 12rem; height: 4rem;font-size: 1.8rem; color: #fff; background-color: #7F6881;" href="https://github.com/MuriloLopesFrade/Chelleging_Telecom_X_parte_2" target="_blank">Código</a>
                         </div>
                     </div>
                 </div>
@@ -124,11 +126,11 @@
                 <div class="col">
                     <div class="card h-100 color-card">
                         <div class="card-body d-flex flex-column align-items-center">
-                            <h2 class="card-title text-center">Número_secreto</h2>
+                            <h2 class="text-center">Ánalise de CriptoMoedas</h2>
                             <p class="card-text text-center">
-                                Um pequeno jogo feito em Python, ao qual temos que adivinhar o número em que o programa pensa e nos da dicas para descobirmos o número.
+                                Neste projeto, ánaliso um dataset de CriptoMoedas, com o objetivo de entender o comportamento do mercado e identificar oportinidades de relações comerciais.
                             </p>
-                            <a class="btn btn-danger btn-lg mt-auto" href="https://github.com/MuriloLopesFrade/Numero_secreto" target="_blank">Código</a>
+                            <a class="btn mt-auto" style="width: 12rem; height: 4rem;font-size: 1.8rem; color: #fff; background-color: #7F6881;" href="https://github.com/MuriloLopesFrade/Analise-de-CriptoMoeda" target="_blank">Código</a>
                         </div>
                     </div>
                 </div>
@@ -136,11 +138,11 @@
                 <div class="col">
                     <div class="card h-100 color-card">
                         <div class="card-body d-flex flex-column align-items-center">
-                            <h2 class="card-title text-center">Calculadora</h2>
+                            <h2 class="text-center">Número_secreto</h2>
                             <p class="card-text text-center">
-                                Calculadora feita em Python em que efetua operações simples como soma, subtração, divição, multiplicação e exponenciação  
+                                Um pequeno jogo feito em Python, ao qual temos que adivinhar o número em que o programa pensa e nos da dicas para descobirmos o número.  
                             </p>
-                            <a class="btn btn-danger btn-lg mt-auto" href="https://github.com/MuriloLopesFrade/calculadora" target="_blank">Código</a>
+                            <a class="btn mt-auto" style="width: 12rem; height: 4rem;font-size: 1.8rem; color: #fff; background-color: #7F6881;" href="https://github.com/MuriloLopesFrade/calculadora" target="_blank">Código</a>
                         </div>
                     </div>
                 </div>
@@ -151,11 +153,11 @@
 
     </section>
 
-    <section id="tela3" class="conteiner_css min-vh-100 d-flex align-items-center position-relative">
+    <section id="tela3" class="container-fluid min-vh-100 d-flex align-items-center position-relative">
 
-    <div class="container-xxl">
+    <div class="container">
 
-        <h1 class="text-center">Obrigado pela visita !!</h1>
+        <h1 class="display-1 text-center">Obrigado pela visita !!</h1>
 
         <p class="text-center">
             Este site é o meu cartão de visitas, mas é nas redes sociais que a gente toma um café (virtual) e conversa de verdade. 
@@ -163,14 +165,14 @@
         </p>
         
         <div class="d-flex justify-content-center gap-3 mt-4">
-            <a href="https://www.linkedin.com/in/murilo-lopes-frade/" class="btn font_btn btn-danger"target="_blank">Linkedin</a>
-            <a href="https://github.com/MuriloLopesFrade?tab=repositories" class="btn font_btn btn-danger" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/murilo-lopes-frade/" class="btn" style="width: 20rem;font-size: 2.4rem; color: #fff; background-color: #7F6881;" target="_blank">Linkedin</a>
+            <a href="https://github.com/MuriloLopesFrade?tab=repositories" class="btn" style="width: 20rem;font-size: 2.4rem; color: #fff; background-color: #7F6881;" target="_blank">Github</a>
         </div>
 
     </div>
 
-    <footer class="position-absolute bottom-0 start-0 w-100 text-center py-3">
-        <a href="#Inicio" class="btn font_btn" style="color: #fff">Inicio</a>
+    <footer class="position-absolute bottom-0 start-0 w-100 text-center py-3 bg-dark bg-opacity-75">
+        <a href="#Inicio" class="btn font_btn" style="font-size: 2.4rem; color: #fff">Inicio</a>
     </footer>
 
 </section>
